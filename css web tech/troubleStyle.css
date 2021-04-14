@@ -1,0 +1,43 @@
+.navigation{
+    list-style: none;
+    margin: 0;
+    background:black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: crimson;
+}
+.navigation a:hover {
+    background: black;
+}
+@media all and ( max-width : 400 px ) {
+    .navigation{
+        justify-content: space-around;
+    }
+}
+@media all and ( max-width : 400 px ) {
+    .navigation{
+        flex-flow: column wrap;
+        padding: 0;
+    }
+
+}
+button{background-color: crimson;width: 150px;height:100px;font-style: bold;margin-top: 15px;}
+.navigation a{
+    text-align: center;
+    padding: 10px;
+    border-left:1px solid red ;
+    border-right: 1px solid red;
+}
+.navigation li:last-of-type a{
+    border-bottom: none;
+}
+body {background: wheat;text-align:center;color: crimson;font-weight: bold;}
+footer{text-align: left;}
+img{width: 250px;height: 300px;margin-top: 100px;margin-bottom: 175px;}
+h1{font-size: 50px;font-style: italic;color:darkred;}
