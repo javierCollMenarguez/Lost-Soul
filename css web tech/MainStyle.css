@@ -31,8 +31,7 @@
     text-align: center;
     ext-transform: uppercase;
     padding: 10px;
-    border-left:1px solid red ;
-    border-right: 1px solid red;
+
 }
 .navigation li:last-of-type a{
     border-bottom: none;
