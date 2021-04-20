@@ -4,7 +4,7 @@
     background: black;
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 .navigation a {
     text-decoration: none;
@@ -37,7 +37,7 @@
     border-bottom: none;
 }
 body {background: wheat;text-align:center;color: crimson;font-weight: bold;}
-footer{text-align: left;}
+footer{text-align: center;}
 img{width: 250px;height: 300px;margin-top: 100px;margin-bottom: 175px;}
 h1{font-size: 50px;font-style: italic;color:darkred;}
 
