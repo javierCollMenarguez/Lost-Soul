@@ -10,3 +10,7 @@ function fn1()
         alert("wellcome "+str);
        
     }
+function goBack() {
+  window.history.back();
+}
+
