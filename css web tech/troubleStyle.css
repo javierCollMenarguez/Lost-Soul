@@ -1,7 +1,7 @@
 .navigation{
     list-style: none;
     margin: 0;
-    background:black;
+    background:darkerd;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -10,7 +10,7 @@
     text-decoration: none;
     display: block;
     padding: 10px;
-    color: crimson;
+    color: white;
 }
 .navigation a:hover {
     background: black;
@@ -31,8 +31,6 @@ button{background-color: crimson;width: 150px;height:100px;font-style: bold;marg
 .navigation a{
     text-align: center;
     padding: 10px;
-    border-left:1px solid red ;
-    border-right: 1px solid red;
 }
 .navigation li:last-of-type a{
     border-bottom: none;
